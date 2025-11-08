@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ------------------ CONFIGURE GEMINI ------------------
-genai.configure(api_key=os.getenv("AIzaSyDBRAAoMWVKUTmlwaLDnxIRukimx0fqSdY"))
+genai.configure(api_key=os.getenv("APi key"))
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # ------------------ APP LAYOUT ------------------
@@ -66,3 +66,4 @@ with tab2:
 
                 except Exception as e:
                     st.error(f"❌ Error generating blog: {e}")
+
