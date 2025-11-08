@@ -17,15 +17,15 @@ This project is an AI-powered Blog Generator that automatically creates structur
 
 ## 🏗️ Tech Stack
 
-### Python 3.x
+Python 3.x
 
-### Streamlit (for the web UI)
+ Streamlit (for the web UI)
 
-### Google Gemini API (for AI-generated content)
+Google Gemini API (for AI-generated content)
 
-### Markdown (for formatted blog storage)
+Markdown (for formatted blog storage)
 
-### python-dotenv (for environment variable management)
+python-dotenv (for environment variable management)
 
 
 ## ⚙️ Setup Instructions
