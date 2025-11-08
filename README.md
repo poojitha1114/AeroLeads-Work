@@ -28,6 +28,7 @@ Markdown (for formatted blog storage)
 python-dotenv (for environment variable management)
 
 ## 📁 Project Structure
+
 AI_Blog_Generator/
 │
 ├── app.py                  # Main Streamlit app
@@ -44,29 +45,29 @@ AI_Blog_Generator/
     └── index.html          # Template for the web layout
 
 ## ⚙️ Setup Instructions
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/aero-leads-work.git
 cd aero-leads-work/Task3_AI_Blog_Generator
 
-2️⃣ Create a Virtual Environment
+### 2️⃣ Create a Virtual Environment
 python -m venv venv
 venv\Scripts\activate    # For Windows
 # or
 source venv/bin/activate # For Mac/Linux
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Add Your API Key
+### 4️⃣ Add Your API Key
 
 Create a .env file in the root directory:
 
 GOOGLE_API_KEY=your_api_key_here
 
-5️⃣ Run the App
+### 5️⃣ Run the App
 streamlit run app.py
 
-6️⃣ (Optional) Generate Bulk Blogs
+### 6️⃣ (Optional) Generate Bulk Blogs
 
 To generate multiple blogs at once:
 
