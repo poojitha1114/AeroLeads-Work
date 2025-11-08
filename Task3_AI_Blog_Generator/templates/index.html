@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Blog Generator</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            text-align: center;
+            margin-top: 30px;
+        }
+        input[type="text"] {
+            width: 60%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        button {
+            padding: 12px 20px;
+            margin-left: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .blog-output {
+            margin-top: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h1>✨ AI Blog Generator</h1>
+    <script>
+function clearOldBlog() {
+    const blogOutput = document.querySelector('.blog-output');
+    if (blogOutput) {
+        blogOutput.innerHTML = '';  // Clear previous blog result
+    }
+}
+</script>
+
+
+    {% if blog %}
+    <div class="blog-output">
+        <pre>{{ blog }}</pre>
+    </div>
+    {% endif %}
+</body>
+</html>
