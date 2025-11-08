@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 # Load API key
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyDBRAAoMWVKUTmlwaLDnxIRukimx0fqSdY"))
+genai.configure(api_key=os.getenv("api key"))
 
 # Create /blog directory if not exists
 os.makedirs("blog", exist_ok=True)
@@ -37,3 +37,4 @@ for topic in blog_topics:
         f.write(f"# {topic}\n\n{blog_content}\n")
 
 print("\n✅ All blogs generated and saved in /blog folder.")
+
