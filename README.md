@@ -17,32 +17,16 @@ This project is an AI-powered Blog Generator that automatically creates structur
 
 ## 🏗️ Tech Stack
 
-Python 3.x
+### Python 3.x
 
-Streamlit (for the web UI)
+### Streamlit (for the web UI)
 
-Google Gemini API (for AI-generated content)
+### Google Gemini API (for AI-generated content)
 
-Markdown (for formatted blog storage)
+### Markdown (for formatted blog storage)
 
-python-dotenv (for environment variable management)
+### python-dotenv (for environment variable management)
 
-## 📁 Project Structure
-
-AI_Blog_Generator/
-│
-├── app.py                  # Main Streamlit app
-├── generate-blogs.py       # Script to auto-generate multiple blogs
-├── .env                    # Environment file (store your API key here)
-├── requirements.txt        # Dependencies
-│
-├── blog/                   # Folder where all generated blog posts are stored
-│   ├── python_basics.md
-│   ├── machine_learning_intro.md
-│   └── ...
-│
-└── templates/
-    └── index.html          # Template for the web layout
 
 ## ⚙️ Setup Instructions
 ### 1️⃣ Clone the Repository
@@ -51,8 +35,8 @@ cd aero-leads-work/Task3_AI_Blog_Generator
 
 ### 2️⃣ Create a Virtual Environment
 python -m venv venv
-venv\Scripts\activate    # For Windows
-# or
+venv\Scripts\activate    # For Windows 
+or
 source venv/bin/activate # For Mac/Linux
 
 ### 3️⃣ Install Dependencies
