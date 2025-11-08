@@ -1,9 +1,9 @@
 # AeroLeads-Work
-🧠 AI Blog Generator
+##🧠 AI Blog Generator
 
 This project is an AI-powered Blog Generator that automatically creates structured, high-quality blog posts using the Gemini API. It allows you to input blog topics, generate multiple articles, and display them neatly in a web interface built with Streamlit.
 
-🚀 Features
+##🚀 Features
 
 ✍️ AI Blog Generation — Automatically generates blogs for any given topic using Google Gemini API.
 
@@ -15,7 +15,7 @@ This project is an AI-powered Blog Generator that automatically creates structur
 
 🧩 Environment-Based Configuration — Uses .env file to securely manage API keys.
 
-🏗️ Tech Stack
+##🏗️ Tech Stack
 
 Python 3.x
 
@@ -27,7 +27,7 @@ Markdown (for formatted blog storage)
 
 python-dotenv (for environment variable management)
 
-📁 Project Structure
+##📁 Project Structure
 AI_Blog_Generator/
 │
 ├── app.py                  # Main Streamlit app
@@ -43,7 +43,7 @@ AI_Blog_Generator/
 └── templates/
     └── index.html          # Template for the web layout
 
-⚙️ Setup Instructions
+##⚙️ Setup Instructions
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/aero-leads-work.git
 cd aero-leads-work/Task3_AI_Blog_Generator
@@ -72,7 +72,7 @@ To generate multiple blogs at once:
 
 python generate-blogs.py
 
-🧩 Example Use Case
+##🧩 Example Use Case
 
 Open the web app.
 
